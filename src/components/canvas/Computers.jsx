@@ -54,7 +54,7 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
-    <div className="relative top-[70px] lg:top-[20px] xl:top-[20px] w-full h-full">
+    <div className="relative top-[70px] lg:top-[20px] xl:top-[20px] w-full h-full hidden md:block">
 <Canvas
       frameloop='demand'
       shadows
