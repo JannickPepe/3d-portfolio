@@ -22,6 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
+  service,
   threejs,
 } from "../assets";
 
@@ -281,6 +282,28 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/",
     deploy_link: "https://udemynextjsserverlessblog.vercel.app/",
+  },
+  {
+    name: "Service SPA",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: service,
+    source_code_link: "https://github.com/",
+    deploy_link: "https://jannickservice.netlify.app/",
   },
 ];
 

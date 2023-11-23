@@ -22,11 +22,11 @@ const Footer = () => {
                                 <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-[#915EFF]">Sections</h2>
                             </div>
                             <ul className="leading-8">
-                                <li><a href="#" className="hover:text-[#7752FE]">About</a></li>
-                                <li><a href="#" className="hover:text-[#7752FE]">Work</a></li>
-                                <li><a href="#" className="hover:text-[#7752FE]">Projects</a></li>
-                                <li><a href="#" className="hover:text-[#7752FE]">Diplomas</a></li>
-                                <li><a href="#" className="hover:text-[#7752FE]">Contact</a></li>
+                                <li><a href="#about" className="hover:text-[#7752FE]">About</a></li>
+                                <li><a href="#work" className="hover:text-[#7752FE]">Work</a></li>
+                                <li><a href="#works" className="hover:text-[#7752FE]">Projects</a></li>
+                                <li><a href="#diplomas" className="hover:text-[#7752FE]">Diplomas</a></li>
+                                <li><a href="#contact" className="hover:text-[#7752FE]">Contact</a></li>
                             </ul>
                         </div>
                         <div className="px-4 my-4 w-full sm:w-auto">
@@ -34,10 +34,10 @@ const Footer = () => {
                                 <h2 className="inline-block text-2xl pb-4 mb-4 border-b-4 border-[#915EFF]">Other Projects</h2>
                             </div>
                             <ul className="leading-8">
-                            <li><a href="#" className="hover:text-[#7752FE]"><span className='text-[#5D12D2]'>FERN: </span>ReactJS + Firebase with Live Chat</a></li>
-                            <li><a href="#" className="hover:text-[#7752FE]"><span className='text-[#5D12D2]'>Serverless: </span>Blog with NextJS, Sanity & Vercel</a></li>
-                            <li><a href="#" className="hover:text-[#7752FE]"><span className='text-[#5D12D2]'>MERN: </span>NanoScale</a></li>
-                            <li><a href="#" className="hover:text-[#7752FE]"><span className='text-[#5D12D2]'>MENN: </span>Orgone Jewels</a></li>
+                            <li><a href="https://jannickservice.netlify.app/" className="hover:text-[#7752FE]"><span className='text-[#5D12D2]'>FERN: </span>ReactJS + Firebase with Live Chat</a></li>
+                            <li><a href="https://udemynextjsserverlessblog.vercel.app/" className="hover:text-[#7752FE]"><span className='text-[#5D12D2]'>Serverless: </span>Blog with NextJS, Sanity & Vercel</a></li>
+                            <li><a href="https://nanoscale.up.railway.app/landing" className="hover:text-[#7752FE]"><span className='text-[#5D12D2]'>MERN: </span>NanoScale</a></li>
+                            <li><a href="https://next-js-13-e-shop.vercel.app/" className="hover:text-[#7752FE]"><span className='text-[#5D12D2]'>MENN: </span>Orgone Jewels</a></li>
                             </ul>
                         </div>
                         <div className="px-4 my-4 w-full sm:w-auto xl:w-1/5">
