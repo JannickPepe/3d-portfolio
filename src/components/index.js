@@ -10,7 +10,7 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Diplomas from './Diplomas';
-import Footer from './footer';
+import Footer from './Footer';
 
 
 export {

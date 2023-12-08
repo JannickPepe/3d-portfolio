@@ -138,12 +138,22 @@ const experiences = [
     company_name: "Zealand, Roskilde",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Aug 2017 - Jan 2021",
+    date: "Aug 2019 - Jan 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Internship 5th semestre",
+    company_name: "GF Trekroner",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Jan - May, 2021",
+    points: [
+      "I was working as an intern for the last semeter of my computer science. Where i was going to build a Wordpress site for Trekroner Housing-Union. With booking system, calendar system and event overview. As well for contact form and responsive design. Using Elementor, classic editor for custom coding and more.",
     ],
   },
   {
@@ -237,7 +247,7 @@ const projects = [
     ],
     image: jobit,
     source_code_link: "https://github.com/",
-    deploy_link: "https://nanoscale.up.railway.app/landing",
+    deploy_link: "https://nanoscalesimulations.com",
   },
   {
     name: "Orgone Jewels",
