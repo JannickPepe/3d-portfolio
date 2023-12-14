@@ -16,6 +16,8 @@ import {
   figma,
   docker,
   meta,
+  suitcase,
+  study,
   starbucks,
   tesla,
   shopify,
@@ -52,20 +54,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend / Web Developer",
+    title: "Web Developer",
     icon: web,
+    modaltext: "HTML5, JS Vanilla, CSS, CSS Frameworks and responsive desig. Deploying to Netlify, Vercel, Render or RailwayApp. Make Content Security Policy",
   },
   {
-    title: "Backend Developer",
+    title: "Analytic tools and Cookies",
     icon: mobile,
+    modaltext: "Google Analytics 4, Google Tag Manager and PostHog. So we can get data from user when they have accepted the Cookie banner. As well see click event",
   },
   {
     title: "Fullstack Developer",
     icon: backend,
+    modaltext: "MySQL usage in Laravel / PHP projects and NoSQL in the JS frameworks such as, ReactJS, Angular and NextJS. Using NodeJS, Express and server / client structur",
   },
   {
-    title: "UI / UX + CSS Frameworks",
+    title: "UI / UX and Plugins",
     icon: creator,
+    modaltext: "Figma, PhotoShop and Illustrator + other plugins as Rive for better UI. Doing Prototypes in Figna and research before coding and make re-use components",
   },
 ];
 
@@ -123,7 +129,7 @@ const experiences = [
   {
     title: "Web Integrator PHP",
     company_name: "Roskilde Techinal School",
-    icon: starbucks,
+    icon: study,
     iconBg: "#383E56",
     date: "Aug 2014 - June 2016",
     points: [
@@ -136,9 +142,9 @@ const experiences = [
   {
     title: "Computer Science",
     company_name: "Zealand, Roskilde",
-    icon: tesla,
+    icon: study,
     iconBg: "#E6DEDD",
-    date: "Aug 2019 - Jan 2021",
+    date: "Aug 2019 - June 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -149,8 +155,8 @@ const experiences = [
   {
     title: "Internship 5th semestre",
     company_name: "GF Trekroner",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: suitcase,
+    iconBg: "#383E56",
     date: "Jan - May, 2021",
     points: [
       "I was working as an intern for the last semeter of my computer science. Where i was going to build a Wordpress site for Trekroner Housing-Union. With booking system, calendar system and event overview. As well for contact form and responsive design. Using Elementor, classic editor for custom coding and more.",
@@ -159,9 +165,9 @@ const experiences = [
   {
     title: "PBA in Web & App",
     company_name: "Zealand, Roskilde",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Aug 2023",
+    icon: study,
+    iconBg: "#E6DEDD",
+    date: "Jan 2022 - June 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -172,9 +178,9 @@ const experiences = [
   {
     title: "Fullstack Internship",
     company_name: "NanoScale Simulations",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - June 2023",
+    icon: suitcase,
+    iconBg: "#383E56",
+    date: "Jan 2023 - May 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -185,7 +191,7 @@ const experiences = [
   {
     title: "Fullstack Freelance",
     company_name: "Orgone Jewels",
-    icon: meta,
+    icon: suitcase,
     iconBg: "#E6DEDD",
     date: "Sep 2023 - November 2023",
     points: [
@@ -246,7 +252,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/JannickPepe",
     deploy_link: "https://nanoscalesimulations.com",
   },
   {
@@ -268,7 +274,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/JannickPepe",
     deploy_link: "https://next-js-13-e-shop.vercel.app/",
   },
   {
@@ -290,7 +296,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/JannickPepe",
     deploy_link: "https://udemynextjsserverlessblog.vercel.app/",
   },
   {
@@ -312,7 +318,7 @@ const projects = [
       },
     ],
     image: service,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/JannickPepe",
     deploy_link: "https://jannickservice.netlify.app/",
   },
 ];

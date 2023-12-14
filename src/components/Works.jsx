@@ -8,6 +8,8 @@ import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+
+// The ProjectCard components with props from index -> projects array in constants folder
 const ProjectCard = ({
   index,
   name,
@@ -37,12 +39,12 @@ const ProjectCard = ({
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className='bg-slate-300 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:scale-125 hover:bg-[#940B92]'
             >
               <img
                 src={github}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className='w-7 h-7 object-contain hover:scale-125'
               />
             </div>
           </div>
