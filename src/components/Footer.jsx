@@ -50,13 +50,13 @@ const Footer = () => {
                             </div>
 
                             <div className='flex justify-start items-center gap-2'>
-                                <a href="https://discord.com/invite/WGqJ2CZebb" className="inline-flex items-center justify-center h-10 w-10 border border-[#5D12D2] rounded-full mr-1 hover:text-blue-400 hover:border-[#915EFF] hover:scale-125">
+                                <a href="https://discord.com/invite/WGqJ2CZebb" className="inline-flex items-center justify-center h-10 w-10 border border-[#915EFF] rounded-full mr-1 hover:text-blue-400 hover:border-[#5D12D2] hover:scale-125">
                                     <img src={Discord} className='h-7 w-7' />
                                 </a>
-                                <a href="https://github.com/JannickPepe" className="inline-flex items-center justify-center h-10 w-10 border border-[#5D12D2] rounded-full mr-1 hover:text-blue-400 hover:border-[#915EFF] hover:scale-125">
+                                <a href="https://github.com/JannickPepe" className="inline-flex items-center justify-center h-10 w-10 border border-[#915EFF] rounded-full mr-1 hover:text-blue-400 hover:border-[#5D12D2] hover:scale-125">
                                     <img src={Github} className='h-7 w-7' />
                                 </a>
-                                <a href="https://linkedin.com/in/jannick-pedersen-3b8a36119" className="inline-flex items-center justify-center h-10 w-10 border border-[#5D12D2] rounded-full hover:text-blue-400 hover:border-[#915EFF] hover:scale-125">
+                                <a href="https://linkedin.com/in/jannick-pedersen-3b8a36119" className="inline-flex items-center justify-center h-10 w-10 border border-[#915EFF] rounded-full hover:text-blue-400 hover:border-[#5D12D2] hover:scale-125">
                                     <img src={Linkedin} className='h-7 w-7' />
                                 </a>
                             </div>

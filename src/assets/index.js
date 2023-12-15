@@ -34,6 +34,15 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import service from "./service.png";
 
+import nextApolloCV from "./diploma/NextJS_Apollo_MongoDB_graphQL.jpg";
+import mernjobify from "./diploma/PBA_MERN.jpg";
+import fernservice from "./diploma/ReactJS_Firebase.jpg";
+import WPmid from "./diploma/WP_Intermediate_Certificate.jpg";
+
+import zan from "./zan.jpg";
+import kellie from "./kellie.jpg";
+import avatar from "./avatar.png";
+
 export {
   logo,
   logoj,
@@ -67,4 +76,11 @@ export {
   jobit,
   tripguide,
   service,
+  nextApolloCV,
+  mernjobify,
+  fernservice,
+  WPmid,
+  zan,
+  kellie,
+  avatar,
 };
